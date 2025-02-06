@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учителя - Сырым аудандық білім беру бөлімінің "мектеп-лицейі" - Часть 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .teacher-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .teacher {
+            flex-basis: 48%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .teacher img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .teacher-group {
+                flex-direction: column;
+            }
+
+            .teacher {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+<title>Бегущая строка</title>
+    <style>
+        body {
+            background-color: white; /* Устанавливаем белый фон для всей страницы */
+        }
+        marquee {
+            color: #3498db; /* Устанавливаем синий цвет текста */
+            font-size: 24px; /* Увеличиваем размер текста */
+            font-weight: bold; /* Делаем текст жирным */
+        }
+    </style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Находим кнопку "Добавить в корзину"
+    var addToCartBtn = document.getElementById("addToCartBtn");
+
+    // Добавляем обработчик события клика на кнопку
+    addToCartBtn.addEventListener("click", function() {
+        // Здесь можно добавить логику для добавления товара в корзину
+        // Например, отправить запрос на сервер или изменить локальные данные
+        alert("Жануар себетке қосылды!");
+    });
+});
+</script>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="ZOO HOME.png" alt="Логотип школы">
+        <h1>"ZOOHOME" үйсіз жануарлар орталығы</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Біз туралы</a></li>
+            <li><a href="about.html">Тапсыру</a></li>
+            <li><a href="teachers2.html">Сатып алу</a></li>
+            <li><a href="bu.html">Будандастыруға өтініш</a></li>
+            <li><a href="classes.html">Алғашқы көмек</a></li>
+	    <li><a href="tot.html">Төтенше жағдай</a></li>
+            <li><a href="contact.html">Контактілер</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<header>
+    <nav>
+            <li><a href="teachers.html">Мысықтар</a></li>
+            <li><a href="teachers1.html">Иттер</a></l>
+    </nav>
+</header>
+    <section>
+        <h2>Біздің тұрғындар</h2>
+        <p>Біздің орталығымыздан көптеген мысықтардың түрлерін таба аласыз.</p>
+    </section>
+    <section>
+        <h2>Хабарландыру</h2>
+        <p>Өзіңізге ұнаған сипаттағы жануарды таңдап, сілтемеге өтіңіз.</p>
+        <li><a href="contact.html">Байланысу</a></li>
+    </section>
+    <section>
+        <div class="teacher-group">
+            <div class="teacher">
+                <img src="1 msk.jpg" alt="Учитель 1">
+                <h3>Ягдтерьер күшіктері</h3>
+                <p>Аты: Шарик</p>
+                <p>Тұқымы: Ягдтерьер</p>
+                <p>Жасы: 6 ай</p>
+                <p>Бойы: 50 см</p>
+                <p>Салмағы: 7 кг</p>
+                <button type="button" name="run_script" id="addToCartBtn">Себетке салу</button>
+            </div>
+
+            <div class="teacher">
+                <img src="2 mysyk.jpg" alt="Учитель 2">
+                <h3>Абиссин марғаулары</h3>
+                <p>Аты: Мурка</p>
+                <p>Тұқымы: Абиссин</p>
+                <p>Жасы: 7 ай</p>
+                <p>Бойы: 40 см</p>
+                <p>Салмағы: 5 кг</p>
+                <button type="button" name="run_script" id="addToCartBtn">Себетке салу</button>
+            </div>
+	</div><br>
+	<div class="teacher-group">
+  	    <div class="teacher">
+                <img src="3 msk.jpg" alt="Учитель 2">
+                <h3>Абиссин марғаулары</h3>
+                <p>Аты: Мурка</p>
+                <p>Тұқымы: Абиссин</p>
+                <p>Жасы: 7 ай</p>
+                <p>Бойы: 40 см</p>
+                <p>Салмағы: 5 кг</p>
+                <button type="button" name="run_script" id="addToCartBtn">Себетке салу</button>
+            </div>
+            <div class="teacher">
+                <img src="4 mysyk.jpg" alt="Учитель 2">
+                <h3>Абиссин марғаулары</h3>
+                <p>Аты: Мурка</p>
+                <p>Тұқымы: Абиссин</p>
+                <p>Жасы: 7 ай</p>
+                <p>Бойы: 40 см</p>
+                <p>Салмағы: 5 кг</p>
+                <button type="button" name="run_script" id="addToCartBtn">Себетке салу</button>
+            </div>
+        </div>
+    </section>
+</main>
+<marquee behavior="scroll" direction="left">
+    Сіздің жарнамаңыздың орны!
+</marquee>
+
+<footer>
+    <p>&copy; "ZOOHOME" үйсіз жануарлар орталығы.</p>
+</footer>
+
+</body>
+</html>
+
